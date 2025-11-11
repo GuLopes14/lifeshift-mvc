@@ -462,14 +462,6 @@ Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](L
 
 ---
 
-## 👥 Autores
-
-**Desenvolvido para a Global Solution FIAP 2025/2**
-
-- **Gustavo Lopes** — [@GuLopes14](https://github.com/GuLopes14)
-
----
-
 ## 🎉 Conclusão
 
 O **LifeShift** é mais do que uma aplicação — é uma **ferramenta de impacto social e educacional**.
