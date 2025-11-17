@@ -3,12 +3,8 @@ FROM gradle:8.11-jdk21 AS builder
 
 WORKDIR /app
 
-# Copy gradle files
-COPY gradlew gradlew.bat gradle/ ./
-COPY build.gradle settings.gradle ./
-
-# Copy source code
-COPY src ./src
+# Copy all project files
+COPY . .
 
 # Give execute permission and build the application
 RUN chmod +x ./gradlew && ./gradlew clean bootJar -x test --no-daemon
