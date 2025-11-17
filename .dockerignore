@@ -1,0 +1,13 @@
+*.md
+.git
+.gitignore
+.gradle
+build/
+.idea/
+*.iml
+.DS_Store
+.env
+.env.local
+README.md
+docker-compose.yml
+compose.yaml
